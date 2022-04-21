@@ -1,0 +1,10 @@
+def letter(name,department,hours,_firstName,_lastName,start_date):
+    Manager = _firstName + " " + _lastName
+    email = _firstName + "." + _lastName + "@123test.com"
+    print("Welcome, " + name)
+    print("\n\nCongratulations on joining the " + department + " team.  You will be reporting to " + Manager +".  They can be reached at this time via email at " + email + ".")
+    print("Your training hours will be " + hours + " and your start date is " + start_date +".  Please report to the office on time and be prepared to learn about your new role with COMPANY.  Again, congratulations, and welcome to the team!")
+    print("\n\nRegards,")
+    print("\n\n" + _firstName + " " + _lastName)
+    
+letter("John", "IT", "8a to 6p, Monday through Friday", "Lucy", "Smith", "7/12/22")
